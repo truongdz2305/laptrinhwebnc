@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebApplication1.Models.SanPham>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+}
+
+<h2 class="text-center">Danh sách sản phẩm</h2>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Tên sản phẩm</th>
+            <th>Mô tả</th>
+            <th>Giá</th>
+            <th>Hình ảnh</th>
+            <th>Danh mục</th>
+            <th>Ngày cập nhật</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sp in Model)
+        {
+            <tr>
+                <td>@sp.TenSanPham</td>
+                <td>@sp.MoTa</td>
+                <td class="text-danger fw-bold">@($"{sp.Gia:N0} VNĐ")</td>
+                <td class="text-center">
+                    @if (!string.IsNullOrEmpty(sp.HinhAnh))
+                    {
+                        <img src="@Url.Content(sp.HinhAnh)" alt="Hình ảnh" width="80" height="80" class="img-thumbnail" />
+                    }
+                    else
+                    {
+                        <span>Không có ảnh</span>
+                    }
+                </td>
+                <td>@(sp.DanhMuc != null ? sp.DanhMuc.TenDanhMuc : "Không có danh mục")</td>
+                <td>@($"{sp.NgayCapNhat:dd/MM/yyyy}")</td>
+                <td>
+                    <a href="@Url.Action("Info", "SanPham", new { id = sp.ID })" class="btn btn-info btn-sm">Chi tiết</a>
+                    <a href="@Url.Action("Edit", "SanPham", new { id = sp.ID })" class="btn btn-warning btn-sm">Chỉnh sửa</a>
+                    <a href="@Url.Action("Delete", "SanPham", new { id = sp.ID })" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc muốn xóa sản phẩm này?');">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p class="text-center">
+    <a href="@Url.Action("Add", "SanPham")" class="btn btn-primary btn-lg">Thêm sản phẩm mới</a>
+</p>

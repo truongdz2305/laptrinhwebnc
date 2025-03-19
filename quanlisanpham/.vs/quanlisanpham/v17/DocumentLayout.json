@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|c:\\users\\admin\\source\\repos\\quanlisanpham\\quanlisanpham\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|solutionrelative:quanlisanpham\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|c:\\users\\admin\\source\\repos\\quanlisanpham\\quanlisanpham\\views\\sanpham\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|solutionrelative:quanlisanpham\\views\\sanpham\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|c:\\users\\admin\\source\\repos\\quanlisanpham\\quanlisanpham\\views\\sanpham\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42C548EA-2A24-4989-B93E-9F9E41328AF4}|quanlisanpham\\quanlisanpham.csproj|solutionrelative:quanlisanpham\\views\\sanpham\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Info.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\Info.cshtml",
+              "RelativeDocumentMoniker": "quanlisanpham\\Views\\sanpham\\Info.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\Info.cshtml",
+              "RelativeToolTip": "quanlisanpham\\Views\\sanpham\\Info.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T12:35:26.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\index.cshtml",
+              "RelativeDocumentMoniker": "quanlisanpham\\Views\\sanpham\\index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\index.cshtml",
+              "RelativeToolTip": "quanlisanpham\\Views\\sanpham\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T12:35:22.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\Add.cshtml",
+              "RelativeDocumentMoniker": "quanlisanpham\\Views\\sanpham\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\quanlisanpham\\quanlisanpham\\Views\\sanpham\\Add.cshtml",
+              "RelativeToolTip": "quanlisanpham\\Views\\sanpham\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T12:35:09.991Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

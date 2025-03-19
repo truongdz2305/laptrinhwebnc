@@ -1,0 +1,29 @@
+﻿@model IEnumerable<QuanLySanPham.Models.SanPham>
+
+<h2>Danh Sách Sản Phẩm</h2>
+<a href="@Url.Action("Add", "SanPham")" class="btn btn-primary">Thêm sản phẩm</a>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Tên Sản Phẩm</th>
+        <th>Giá</th>
+        <th>Ảnh</th>
+        <th>Thao Tác</th>
+    </tr>
+    @foreach (var sp in Model)
+    {
+        <tr>
+            <td>@sp.Id</td>
+            <td>@sp.TenSanPham</td>
+            <td>@sp.Gia</td>
+            <td>
+                <img src="~/Images/@sp.HinhAnh" width="50" asp-append-version="true" />
+            </td>
+            <td>
+                <a href="@Url.Action("Edit", "SanPham", new { id = sp.Id })" class="btn btn-warning">Sửa</a>
+                <a href="@Url.Action("Info", "SanPham", new { id = sp.Id })" class="btn btn-info">Chi tiết</a>
+            </td>
+        </tr>
+    }
+</table>

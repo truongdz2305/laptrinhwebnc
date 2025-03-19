@@ -1,0 +1,10 @@
+﻿@model QuanLySanPham.Models.SanPham
+
+<div class="product-info">
+    <h2>@Model.TenSanPham</h2>
+    <img src="~/Content/Images/@Model.HinhAnh" alt="@Model.TenSanPham" width="300" />
+    <p>Giá: @Model.Gia</p>
+    <p>@Model.MoTa</p>
+</div>
+
+<a href="@Url.Action("Index", "SanPham")" class="btn btn-secondary">Quay lại</a>
